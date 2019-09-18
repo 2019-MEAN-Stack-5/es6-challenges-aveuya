@@ -3,12 +3,17 @@
 // you should use the empty () syntax of _ syntax.
 
 
-function noParam() {
+// function noParam() {
 
+// }
+
+const noParam = () => {
+    let a = 'Roses are red ';
+    let b = 'Violets are blue';
+    return a + b;
 }
 
-
-
+// console.log(noParam);
 
 
 
